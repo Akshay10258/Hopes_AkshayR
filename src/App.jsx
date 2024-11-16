@@ -1,7 +1,7 @@
 import './App.css'
 import {createBrowserRouter,RouterProvider} from 'react-router-dom'
 import Home from './components/Home'
-import Events from './components/events'
+import Events from './components/Events'
 function App()
 {
   // const [count, setCount] = useState(0)
