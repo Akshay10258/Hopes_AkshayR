@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Bowlby+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Bowlby+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Anton&family=Bowlby+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.bowlby-one-regular {
+  font-family: "Bowlby One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rubik-mono-one-regular {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gradient-text-animation {
+  background: linear-gradient(
+  90deg,
+  #f70202,
+  #e2d4d2,
+  #a70000,
+  #fffefe,
+  #ffffff,
+  #fdcece,
+  #e4d4d4,
+  hsl(8, 100%, 54%)
+  );
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-text-animation 3s ease-in-out infinite;
+}
+@keyframes gradient-text-animation {
+  0% {
+      background-position: 100%;
+      }
+      100% {
+      background-position: 200%;
+      }
+  }
+

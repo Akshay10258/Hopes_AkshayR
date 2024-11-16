@@ -1,0 +1,28 @@
+/* Apply these styles to your background container */
+.background-container {
+  background-image: url('/images/bg.jpg'); 
+  background-size: cover;  
+  background-position: center;  
+  background-repeat: no-repeat; 
+  min-height: 100vh;  
+  width: 100%;  
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+}
+/* .background-container2 {
+  background-image: url('/images/background.jpg'); 
+  background-size: cover;  
+  background-position: center;  
+  background-repeat: no-repeat; 
+  min-height: 100vh;  
+  width: 100%;  
+  margin: 0;
+  padding: 0;
+  padding-bottom: 20px;
+} */
+
+body, html {
+  height: 100%;  
+  margin: 0;
+}
